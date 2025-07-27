@@ -1,4 +1,4 @@
-Ecco un `README.md` in **italiano e inglese** per il sito one-page di un fiorista chiamato **Bloom Heaven**, sviluppato in **React.js** con **Tailwind CSS**, con immagini di esempio generate tramite AI o provenienti da stock.
+
 
 ---
 
