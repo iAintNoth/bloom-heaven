@@ -1,8 +1,3 @@
-
-
----
-
-````markdown
 # Bloom Heaven 🌸
 
 🌿 *Sito dimostrativo single-page per un fiorista artigianale e raffinato*  
