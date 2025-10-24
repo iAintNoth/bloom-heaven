@@ -50,7 +50,7 @@ const Catalog = () => {
   return (
     <section id="catalog" className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
+   
         <div className="text-center mb-16 fade-in-up">
           <div className="flex items-center justify-center mb-4">
             <Flower className="text-accent mr-2" size={24} />
@@ -65,7 +65,6 @@ const Catalog = () => {
           </p>
         </div>
 
-        {/* Categories Grid */}
         <div className="grid lg:grid-cols-3 gap-8">
           {categories.map((category, index) => (
             <Card key={category.id} className="group cursor-pointer border-border/50 bg-card/50 backdrop-blur-sm hover:shadow-botanical transition-all duration-500 overflow-hidden fade-in-up">
@@ -121,7 +120,6 @@ const Catalog = () => {
           ))}
         </div>
 
-        {/* Call to Action */}
         <div className="text-center mt-16 fade-in-up">
           <Card className="bg-gradient-botanical border-none text-primary-foreground max-w-3xl mx-auto">
             <CardContent className="p-8">

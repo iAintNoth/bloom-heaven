@@ -53,7 +53,6 @@ const About = () => {
               </p>
             </div>
 
-            {/* Features Grid */}
             <div className="grid sm:grid-cols-2 gap-4">
               {features.map((feature, index) => (
                 <Card key={index} className="border-border/50 bg-card/50 backdrop-blur-sm hover:shadow-soft transition-all duration-300">
@@ -73,7 +72,6 @@ const About = () => {
             </div>
           </div>
 
-          {/* Image */}
           <div className="fade-in-up relative">
             <div className="relative">
               <img 
@@ -85,7 +83,6 @@ const About = () => {
               <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-gradient-botanical rounded-full opacity-40 blur-xl"></div>
             </div>
             
-            {/* Decorative Quote */}
             <div className="absolute -bottom-8 left-8 right-8 bg-card/90 backdrop-blur-md rounded-xl p-6 shadow-soft border border-border/50">
               <blockquote className="text-center">
                 <p className="text-foreground font-medium italic mb-2">

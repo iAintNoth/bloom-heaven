@@ -9,7 +9,7 @@ const Hero = () => {
 
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image */}
+
       <div className="absolute inset-0">
         <img 
           src={heroImage} 
@@ -20,7 +20,6 @@ const Hero = () => {
         <div className="absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent"></div>
       </div>
 
-      {/* Decorative Elements */}
       <div className="absolute top-1/4 left-10 opacity-30 animate-pulse">
         <span className="text-6xl">🌿</span>
       </div>
@@ -28,7 +27,6 @@ const Hero = () => {
         <span className="text-4xl">🌸</span>
       </div>
 
-      {/* Content */}
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="fade-in-up">
           <div className="flex items-center justify-center mb-6">
@@ -69,7 +67,6 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Scroll Indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
         <button 
           onClick={() => scrollToSection('about')}
@@ -79,7 +76,6 @@ const Hero = () => {
         </button>
       </div>
 
-      {/* Floating Elements */}
       <div className="absolute top-1/3 left-1/4 opacity-20 animate-float">
         <div className="w-8 h-8 bg-accent/30 rounded-full blur-sm"></div>
       </div>

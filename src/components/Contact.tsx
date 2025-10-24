@@ -27,7 +27,6 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Simulate form submission
     toast({
       title: "Messaggio inviato!",
       description: "Ti contatteremo presto per discutere la tua richiesta.",
@@ -51,7 +50,7 @@ const Contact = () => {
   return (
     <section id="contact" className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
+
         <div className="text-center mb-16 fade-in-up">
           <div className="flex items-center justify-center mb-4">
             <MessageSquare className="text-accent mr-2" size={24} />
@@ -67,7 +66,7 @@ const Contact = () => {
         </div>
 
         <div className="grid lg:grid-cols-3 gap-8">
-          {/* Contact Form */}
+
           <div className="lg:col-span-2 fade-in-up">
             <Card className="shadow-botanical border-border/50">
               <CardHeader>
@@ -163,9 +162,8 @@ const Contact = () => {
             </Card>
           </div>
 
-          {/* Contact Information */}
+
           <div className="space-y-6 fade-in-up">
-            {/* Location & Hours */}
             <Card className="border-border/50 bg-card/50 backdrop-blur-sm">
               <CardHeader>
                 <CardTitle className="flex items-center text-botanical-gradient">
@@ -197,7 +195,6 @@ const Contact = () => {
               </CardContent>
             </Card>
 
-            {/* Contact Details */}
             <Card className="border-border/50 bg-card/50 backdrop-blur-sm">
               <CardHeader>
                 <CardTitle className="text-botanical-gradient">Contatti Diretti</CardTitle>
@@ -225,7 +222,6 @@ const Contact = () => {
               </CardContent>
             </Card>
 
-            {/* Social Media */}
             <Card className="border-border/50 bg-card/50 backdrop-blur-sm">
               <CardHeader>
                 <CardTitle className="text-botanical-gradient">Seguici</CardTitle>
@@ -247,14 +243,12 @@ const Contact = () => {
               </CardContent>
             </Card>
 
-            {/* Emergency Badge */}
             <Badge className="w-full justify-center p-3 bg-accent/20 text-accent border-accent/30">
               <span className="text-sm">🚀 Consegna urgente disponibile</span>
             </Badge>
           </div>
         </div>
 
-        {/* Map Placeholder */}
         <div className="mt-16 fade-in-up">
           <Card className="overflow-hidden shadow-botanical border-border/50">
             <div className="bg-gradient-earth h-64 flex items-center justify-center relative">

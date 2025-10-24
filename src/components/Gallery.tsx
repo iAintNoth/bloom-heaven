@@ -68,7 +68,7 @@ const Gallery = () => {
   return (
     <section id="gallery" className="py-20 bg-gradient-earth">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
+
         <div className="text-center mb-16 fade-in-up">
           <div className="flex items-center justify-center mb-4">
             <Camera className="text-accent mr-2" size={24} />
@@ -83,7 +83,6 @@ const Gallery = () => {
           </p>
         </div>
 
-        {/* Main Slider */}
         <div className="relative mb-8 fade-in-up">
           <Card className="overflow-hidden shadow-botanical border-border/50">
             <div className="relative h-96 lg:h-[500px]">
@@ -107,7 +106,6 @@ const Gallery = () => {
                 </p>
               </div>
 
-              {/* Zoom Button */}
               <Dialog>
                 <DialogTrigger asChild>
                   <Button 
@@ -127,7 +125,6 @@ const Gallery = () => {
                 </DialogContent>
               </Dialog>
 
-              {/* Navigation Arrows */}
               <Button
                 onClick={prevSlide}
                 size="sm"
@@ -149,7 +146,6 @@ const Gallery = () => {
           </Card>
         </div>
 
-        {/* Thumbnail Navigation */}
         <div className="grid grid-cols-3 lg:grid-cols-6 gap-4 fade-in-up">
           {galleryItems.map((item, index) => (
             <button
@@ -173,7 +169,6 @@ const Gallery = () => {
           ))}
         </div>
 
-        {/* Dots Navigation */}
         <div className="flex justify-center mt-8">
           <div className="flex space-x-2">
             {galleryItems.map((_, index) => (
@@ -190,7 +185,6 @@ const Gallery = () => {
           </div>
         </div>
 
-        {/* Call to Action */}
         <div className="text-center mt-16 fade-in-up">
           <Card className="bg-card/50 backdrop-blur-sm border-border/50 max-w-2xl mx-auto">
             <CardContent className="p-8">
