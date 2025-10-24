@@ -9,10 +9,10 @@ const Footer = () => {
 
   return (
     <footer className="bg-gradient-to-b from-background to-muted/30 border-t border-border/50">
-      {/* Main Footer */}
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {/* Brand */}
+
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-6">
               <span className="text-3xl">🌿</span>
@@ -52,7 +52,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Quick Links */}
           <div>
             <h4 className="font-semibold text-foreground mb-4 flex items-center">
               <Leaf size={16} className="mr-2 text-accent" />
@@ -92,7 +91,6 @@ const Footer = () => {
             </nav>
           </div>
 
-          {/* Contact Info */}
           <div>
             <h4 className="font-semibold text-foreground mb-4 flex items-center">
               <Heart size={16} className="mr-2 text-accent" />
@@ -126,7 +124,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Services Highlight */}
         <div className="border-t border-border/50 mt-12 pt-8">
           <div className="grid sm:grid-cols-3 gap-6 text-center">
             <div className="space-y-2">
@@ -148,7 +145,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom Bar */}
       <div className="border-t border-border/50 bg-muted/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col sm:flex-row items-center justify-between space-y-4 sm:space-y-0">
