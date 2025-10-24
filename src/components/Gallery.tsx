@@ -69,6 +69,7 @@ const Gallery = () => {
     <section id="gallery" className="py-20 bg-gradient-earth">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
+
         <div className="text-center mb-16 fade-in-up">
           <div className="flex items-center justify-center mb-4">
             <Camera className="text-accent mr-2" size={24} />
@@ -93,7 +94,7 @@ const Gallery = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent"></div>
               
-              {/* Content Overlay */}
+
               <div className="absolute bottom-6 left-6 right-6">
                 <Badge className="mb-3 bg-accent/20 text-accent border-accent/30">
                   {galleryItems[currentIndex].category}
@@ -106,6 +107,7 @@ const Gallery = () => {
                 </p>
               </div>
 
+              {/* Zoom Button */}
               <Dialog>
                 <DialogTrigger asChild>
                   <Button 
@@ -125,6 +127,7 @@ const Gallery = () => {
                 </DialogContent>
               </Dialog>
 
+              {/* Navigation Arrows */}
               <Button
                 onClick={prevSlide}
                 size="sm"
